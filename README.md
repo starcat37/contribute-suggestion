@@ -63,7 +63,7 @@ GitHub 오픈소스 프로젝트에 기여하고 싶지만 어디서부터 시�
 
 1. **저장소 클론**
    ```bash
-   git clone https://github.com/yourusername/contribute-suggestion.git
+   git clone https://github.com/starcat37/contribute-suggestion.git
    cd contribute-suggestion
    ```
 
@@ -260,6 +260,11 @@ npm run start
 
 ### Vercel 배포 (권장)
 
+이 프로젝트는 이미 Vercel에 배포되어 있습니다:
+- **URL**: https://contribute-suggestion-8ftl6o0pe-starcat37s-projects.vercel.app
+
+직접 배포하려면:
+
 1. **Vercel 계정 연결**
    ```bash
    npm i -g vercel
@@ -285,7 +290,7 @@ npm run start
 이 프로젝트에 기여해주세요! 다음과 같은 방법으로 참여할 수 있습니다:
 
 ### 버그 리포트
-- [Issues](https://github.com/yourusername/contribute-suggestion/issues)에서 버그 신고
+- [Issues](https://github.com/starcat37/contribute-suggestion/issues)에서 버그 신고
 - 재현 가능한 단계와 스크린샷 포함
 
 ### 기능 제안
@@ -319,9 +324,8 @@ npm run start
 
 ## 📞 문의
 
-- **이메일**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **웹사이트**: [https://contribute-suggestion.vercel.app](https://contribute-suggestion.vercel.app)
+- **이메일**: starcat37@korea.ac.kr
+- **GitHub**: [@starcat37](https://github.com/starcat37)
 
 ---
 
