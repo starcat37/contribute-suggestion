@@ -90,7 +90,7 @@ export const translations: Record<Language, Translations> = {
   ko: {
     appTitle: '오픈소스 기여 추천',
     appDescription: 'GitHub 오픈소스 프로젝트에 기여하고 싶지만 어디서부터 시작해야 할지 모르는 개발자들을 위한',
-    aiPowered: 'AI 기반 맞춤형 저장소 추천 시스템',
+    aiPowered: '스마트 알고리즘 기반 맞춤형 저장소 추천 시스템',
     settings: '설정',
     
     selectLanguages: '프로그래밍 언어 선택',
@@ -168,7 +168,7 @@ export const translations: Record<Language, Translations> = {
   en: {
     appTitle: 'Open Source Contribution Finder',
     appDescription: 'For developers who want to contribute to GitHub open source projects but don\'t know where to start',
-    aiPowered: 'AI-powered personalized repository recommendation system',
+    aiPowered: 'Smart algorithm-powered personalized repository recommendation system',
     settings: 'Settings',
     
     selectLanguages: 'Select Programming Languages',
@@ -246,7 +246,7 @@ export const translations: Record<Language, Translations> = {
   zh: {
     appTitle: '开源贡献推荐',
     appDescription: '为想要贡献GitHub开源项目但不知从何开始的开发者提供',
-    aiPowered: 'AI驱动的个性化仓库推荐系统',
+    aiPowered: '智能算法驱动的个性化仓库推荐系统',
     settings: '设置',
     
     selectLanguages: '选择编程语言',

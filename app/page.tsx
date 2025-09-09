@@ -163,7 +163,6 @@ export default function Home() {
               isHydrated && settings.theme === 'dark' ? 'text-gray-300' : 'text-gray-600'
             }`}>
               {t.appDescription}
-              <span className="text-blue-400 font-semibold"> {t.aiPowered}</span>
             </p>
 
             {/* Stats */}
@@ -261,7 +260,7 @@ export default function Home() {
               어떻게 작동하나요?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              AI 알고리즘이 여러분의 선호도와 기술 수준을 분석하여 가장 적합한 오픈소스 프로젝트를 추천합니다.
+              정교한 점수 알고리즘이 여러분의 선호도와 기술 수준을 분석하여 가장 적합한 오픈소스 프로젝트를 추천합니다.
             </p>
           </div>
 
