@@ -203,7 +203,6 @@ export default function SearchForm({ onSearch, isLoading = false, error = null }
                   selectedLanguages={languageFilterMode === 'include' ? includedLanguages : excludedLanguages}
                   onLanguageChange={languageFilterMode === 'include' ? setIncludedLanguages : setExcludedLanguages}
                   maxSelections={10}
-                  placeholder={`${languageFilterMode === 'include' ? '포함' : '제외'}할 언어를 선택하세요`}
                 />
               </div>
             </div>

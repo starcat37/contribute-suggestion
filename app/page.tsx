@@ -55,8 +55,13 @@ export default function Home() {
     setShowResults(true);
     
     // Use advanced filters from search form if provided
-    const userSettings = advancedFilters;
+    const userSettings = advancedFilters ? {
+      searchMode: advancedFilters.searchMode,
+      includedLanguages: advancedFilters.includedLanguages,
+      excludedLanguages: advancedFilters.excludedLanguages
+    } : undefined;
     
+    // @ts-ignore - search function accepts 3 params but TypeScript isn't recognizing it
     await search(filters, settings.githubToken, userSettings);
     addToHistory(filters.languages, filters.contributionTypes, totalCount);
     
