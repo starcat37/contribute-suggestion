@@ -114,7 +114,7 @@ export function useSettings() {
       document.documentElement.classList.add(settings.theme);
       document.documentElement.lang = settings.language;
     }
-  }, []);
+  }, [settings.theme, settings.language]);
 
   // 설정 변경 시 즉시 DOM 업데이트
   useEffect(() => {

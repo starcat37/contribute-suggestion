@@ -43,6 +43,8 @@ export function useTranslation() {
     }
     
     return translation;
+    // translationKey is intentionally included to force re-render on language changes
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [settings.language, isHydrated, translationKey]);
 
   // 언어 변경 콜백
